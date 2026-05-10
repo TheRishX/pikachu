@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh;
+
+}
+
+
+.left {
+    background-color: #FBC50D;
+    height: 90vh;
+    width: 60vw;
+    border-radius: 30px 0px 0px 30px;
+
+}
+
+.right {
+    background-color: #FCE8B5;
+    height: 90vh;
+    width: 40vw;
+    border-radius: 0px 30px 30px 0px;
+
+}
+
+
+.logo img {
+    width: 150px;
+    margin: 20px 35px;
+}
+
+
+.right {
+    display: flex;
+    /* flex: 1; */
+    position: relative;
+    justify-content: end;
+}
+
+#hamburger {
+    display: flex;
+    padding: 35px;
+    font-size: 28px;
+
+}
+
+.dots {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 35vh;
+    right: 15px;
+    gap: 20px;
+}
+
+/* content */
+
+.linedate {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    margin-right: 10px;
+}
+
+.content {
+    padding: 40px 80px;
+}
+
+.pokeball {
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.pokeball img {
+    position: absolute;
+    margin-top: 7%;
+    width: 200px;
+    opacity: 0.3;
+    /* overflow: hidden; */
+}
+
+.left {
+    position: relative;
+    overflow: hidden;
+}
+
+/* fonts styling */
+
+.content h1 {
+    font-family: Oswald;
+    font-size: 130px;
+}
+
+.content h3 {
+    font-family: Oswald;
+    font-size: 14px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: nunito;
+}
+
+.content p {
+    font-family: nunito;
+    font-weight: 300;
+    margin-right: 270px;
+    line-height: 25px;
+}
+
+.linedate {
+    margin-top: 30px;
+}
+
+.linedate p {
+    font-family: oswald;
+    font-weight: 900;
+}
+
+.pikachu {
+    position: absolute;
+    z-index: 10;
+    right: 25vw;
+}
+
+.pikachu img {
+    width: 560px;
+
+}
+
+.dot2,
+.dot3,
+.dot4 {
+    opacity: 0.5;
+}
+
+.dot1 {
+    color: #d25e49;
+}
